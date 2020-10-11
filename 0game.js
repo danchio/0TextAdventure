@@ -7,7 +7,6 @@ const playerChoice = (option) => {
      playerChoice2(); 
   } else if (option == 'ACCEPT FATE') {
       console.log('You ponder the futility of action. The idea weighs heavy of the realization that time is always fleeting. You understand the scope of the universe and your relation to that. You’ve accepted your end, and thusly are at peace. And as you lay there time passes, and passes, and passes, and passes\… \n GAME OVER');
-      playAgain();
   } else {
       console.log('Please cooperate with me, Im trying to narrate your story.');
   }
